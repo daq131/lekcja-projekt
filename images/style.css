@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Rubik+Distressed&display=swap');
+
+html {
+  /* box-sizing: border-box; */
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(./images/tlo.png);
+  linear-gradient(to right, rgb(255, 123, 0),red);
+}
+
+.nav {
+  position: relative;
+
+  width: 100%;
+ 
+  background-color: white;
+
+}
+.image {
+  display: grid;
+  justify-content: center;
+}
+.logo{
+  width: 100px;
+  border: 2px solid burlywood;
+  border-radius: 50%;
+}
+.menu{
+  display: grid;
+  grid-template-columns:  repeat(3, 1fr);
+  margin: 0 auto;
+  justify-content:space-between
+}
+.item {
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'Nerko One', cursive;
+  font-family: 'Rubik Distressed', cursive;
+
+}
+.projects {
+  background-color: white;
+
+  
+}
+.foto {
+  width: 100%;
+}
+.fotos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px ;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  justify-content:space-evenly;
+}
+
+.head {
+  font-size: 50px;
+  font-family: 'Nerko One', cursive;
+  font-family: 'Rubik Distressed', cursive;
+  text-align: center;
+}
+
+#about {
+  background-color: white;
+  
+}
